@@ -58,7 +58,7 @@
 
   bash/instructions
   # Compile
-  g++ -std=c++17 extract_logs.cpp -o extract_logs -pthread
+  g++ -std=c++17 task_code.cpp -o extract_logs -pthread
 
   # Execute
   ./extract_logs YYYY-MM-DD
